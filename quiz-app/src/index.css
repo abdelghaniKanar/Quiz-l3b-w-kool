@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom button style from your original code */
+.button-55 {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.button-55:hover {
+  transform: translateY(-3px);
+}
+
+.button-55:active {
+  transform: translateY(1px);
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
