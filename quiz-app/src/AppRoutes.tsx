@@ -1,8 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
+import WelcomePage from './pages/WelcomePage';
+import PlayerSelectionPage from './pages/PlayerSelectionPage';
 
-// Import pages (will be created later)
-const WelcomePage = () => <div>Welcome Page</div>;
-const PlayerSelectionPage = () => <div>Player Selection Page</div>;
 const QuizPage = () => <div>Quiz Page</div>;
 
 const AppRoutes = () => {
